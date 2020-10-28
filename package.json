@@ -1,0 +1,26 @@
+{
+  "name": "@wabarc/initium",
+  "private": true,
+  "version": "1.0.0",
+  "description": "Wayback Archiver documentation repository.",
+  "scripts": {
+    "toc": "doctoc README.md --notitle && doctoc README.zh_CN.md --notitle"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wabarc/initium.git"
+  },
+  "keywords": [
+    "docs",
+    "readme"
+  ],
+  "author": "Wayback Archiver <wabarc@tuta.io>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/wabarc/initium/issues"
+  },
+  "homepage": "https://github.com/wabarc/initium#readme",
+  "dependencies": {
+    "doctoc": "^1.4.0"
+  }
+}
