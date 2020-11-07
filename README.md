@@ -81,5 +81,5 @@ Wayback Archiver accounts are also maintained on these registries:
 
 ## License
 
-This repository is only for documents. All of these are licensed under the Creative Commons Zero v1.0 Universal license, see the [LICENSE](https://github.com/wabarc/initium/blob/master/LICENSE) file for details.
+This repository is only for documents. All of these are licensed under the Creative Commons Zero v1.0 Universal license, see the [LICENSE](https://github.com/wabarc/initium/blob/main/LICENSE) file for details.
 
