@@ -49,7 +49,7 @@ For the most part, these fall into three categories:
 ### Wayback Archiver
 
 - [wayback](https://github.com/wabarc/wayback) - The main repo for wayback and publish the messages.
-- [archiver](https://github.com/wabarc/archiver) - Archives webpages from the published messages by `Wayback Bot`.
+- [archiver](https://github.com/wabarc/archiver) - Archiving webpages from the published messages by `Wayback Bot`.
 
 ### Modules
 
@@ -58,8 +58,11 @@ For the most part, these fall into three categories:
 - [broker](https://github.com/wabarc/broker) - Distribute webpages to the third party repository.
 - [cairn](https://github.com/wabarc/cairn) - A JavaScript library for snapshot webpages written in TypeScript. The most important module used by *archiver*.
 - [distributor](https://github.com/wabarc/distributor) - GitHub actions for distributing webpages using *broker*.
+- [imgbb](https://github.com/wabarc/imgbb) - A command-line tool and Go package interface for upload images to [ImgBB](https://imgbb.com).
 - [ipfs-pinner](https://github.com/wabarc/ipfs-pinner) - Pin file to IPFS pinning service, required by [wbipfs](https://github.com/wabarc/wbipfs).
 - [packer](https://github.com/wabarc/packer) - Part of the module required by *archiver* using to pack webpages to file, inherits from [archiver](https://github.com/wabarc/archiver).
+- [screenshot](https://github.com/wabarc/screenshot) - Capture webpage and save as image using chromedp.
+- [telegra.ph](https://github.com/wabarc/telegra.ph) - A command-line tool and Go package interface for wayback webpage to [Telegraph](https://telegra.ph).
 - [wbipfs](https://github.com/wabarc/wbipfs) - A Golang package and CLI tool to transfer file to IPFS.
 
 Other repositories include:
@@ -68,7 +71,11 @@ Other repositories include:
 - [prattein](https://github.com/wabarc/prattein) - Website for `Wayback Bot` published messages, alias Telegram channel.
 - [sitemap](https://github.com/wabarc/sitemap) - Generate sitemap for [prattein](https://github.com/wabrac/prattein).
 - [on-heroku](https://github.com/wabarc/on-heroku) - Which is a script tool to deploy *wayback* service as heroku app.
+- [on-github](https://github.com/wabarc/on-github) - Host *wayback* service on GitHub using Actions.
 - [heroku-schedule](https://github.com/wabarc/heroku-schedule) - Scheduling for the Heroku app using GitHub Actions.
+- [helper](https://github.com/wabarc/helper) - Helper functions for Golang projects.
+- [golang-chromium](https://github.com/wabarc/golang-chromium) - Docker image bundling Golang and Chromium.
+- [githooks](https://github.com/wabarc/githooks) - Git hooks for development.
 
 ## Registries
 
