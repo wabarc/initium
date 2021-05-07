@@ -43,39 +43,44 @@ For the most part, these fall into three categories:
 
 ### Code-free repositories
 
-- The [initium](https://github.com/wabarc/initium) documentation repo, which you're in right now.
-- [project-template](https://github.com/wabarc/project-template), which is a template for creating a code repository.
+- The [initium][initium] documentation repo, which you're in right now.
+- [project-template][project-template] which is a template for creating a code repository.
+- The [artwork][artwork] for open-licensed wabarc-related artwork.
 
 ### Wayback Archiver
 
-- [wayback](https://github.com/wabarc/wayback) - The main repo for wayback and publish the messages.
-- [archiver](https://github.com/wabarc/archiver) - Archiving webpages from the published messages by `Wayback Bot`.
+- [wayback][wayback] - The main repo for wayback and publish the messages.
+- [archiver][archiver] - Archiving webpages from the published messages by `Wayback Bot`.
+- [playback][playback] - Playback archived URLs from Internte Archiver, archive.today and beyond.
 
 ### Modules
 
-- [archive.org](https://github.com/wabarc/archive.org) - A Golang package for request [Internet Archive](https://archive.org/) to archive webpages.
-- [archive.is](https://github.com/wabarc/archive.is) - A Golang package for request [Archive.today](https://archive.today/) to archive webpages.
-- [broker](https://github.com/wabarc/broker) - Distribute webpages to the third party repository.
-- [cairn](https://github.com/wabarc/cairn) - A JavaScript library for snapshot webpages written in TypeScript. The most important module used by *archiver*.
-- [distributor](https://github.com/wabarc/distributor) - GitHub actions for distributing webpages using *broker*.
-- [imgbb](https://github.com/wabarc/imgbb) - A command-line tool and Go package interface for upload images to [ImgBB](https://imgbb.com).
-- [ipfs-pinner](https://github.com/wabarc/ipfs-pinner) - Pin file to IPFS pinning service, required by [wbipfs](https://github.com/wabarc/wbipfs).
-- [packer](https://github.com/wabarc/packer) - Part of the module required by *archiver* using to pack webpages to file, inherits from [archiver](https://github.com/wabarc/archiver).
-- [screenshot](https://github.com/wabarc/screenshot) - Capture webpage and save as image using chromedp.
-- [telegra.ph](https://github.com/wabarc/telegra.ph) - A command-line tool and Go package interface for wayback webpage to [Telegraph](https://telegra.ph).
-- [wbipfs](https://github.com/wabarc/wbipfs) - A Golang package and CLI tool to transfer file to IPFS.
+- [archive.org][archive.org] - A Golang package for request [Internet Archive](https://archive.org/) to archive webpages.
+- [archive.is][archive.is] - A Golang package for request [Archive.today](https://archive.today/) to archive webpages.
+- [broker][broker] - Distribute webpages to the third party repository.
+- [cairn][cairn] - A JavaScript library for snapshot webpages written in TypeScript. The most important module used by *archiver*.
+- [distributor][distributor] - GitHub actions for distributing webpages using *broker*.
+- [imgbb][imgbb] - A command-line tool and Go package interface for upload images to [ImgBB](https://imgbb.com).
+- [ipfs-pinner][ipfs-pinner] - Pin file to IPFS pinning service, required by [wbipfs](https://github.com/wabarc/wbipfs).
+- [memento][memento] - A Golang and Command-Line Interface to Time Travel Service (Memento), required by [playback][playback].
+- [packer][packer] - Part of the module required by *archiver* using to pack webpages to file, inherits from [archiver][archiver].
+- [screenshot][screenshot] - Capture webpage and save as image using chromedp.
+- [telegra.ph][telegra.ph] - A command-line tool and Go package interface for wayback webpage to [Telegraph](https://telegra.ph).
+- [wbipfs][wbipfs] - A Golang package and CLI tool to transfer file to IPFS.
 
 Other repositories include:
 
-- [snapshot](https://github.com/wabarc/snapshot) - A Golang package and CLI for snapshot webpages using chromedp.
-- [prattein](https://github.com/wabarc/prattein) - Website for `Wayback Bot` published messages, alias Telegram channel.
-- [sitemap](https://github.com/wabarc/sitemap) - Generate sitemap for [prattein](https://github.com/wabrac/prattein).
-- [on-heroku](https://github.com/wabarc/on-heroku) - Which is a script tool to deploy *wayback* service as heroku app.
-- [on-github](https://github.com/wabarc/on-github) - Host *wayback* service on GitHub using Actions.
-- [heroku-schedule](https://github.com/wabarc/heroku-schedule) - Scheduling for the Heroku app using GitHub Actions.
-- [helper](https://github.com/wabarc/helper) - Helper functions for Golang projects.
-- [golang-chromium](https://github.com/wabarc/golang-chromium) - Docker image bundling Golang and Chromium.
-- [githooks](https://github.com/wabarc/githooks) - Git hooks for development.
+- [snapshot][snapshot] - A Golang package and CLI for snapshot webpages using chromedp.
+- [prattein][prattein] - Website for `Wayback Bot` published messages, alias Telegram channel.
+- [sitemap][sitemap] - Generate sitemap for [prattein][prattein].
+- [on-heroku][on-heroku] - Which is a script tool to deploy *wayback* service as heroku app.
+- [on-github][on-github] - Host *wayback* service on GitHub using Actions.
+- [heroku-schedule][heroku-schedule] - Scheduling for the Heroku app using GitHub Actions.
+- [helper][helper] - Helper functions for Golang projects.
+- [logger][logger] - Logger for Golang projects.
+- [golang-chromium][golang-chromium] - Docker image bundling Golang and Chromium.
+- [githooks][githooks] - Git hooks for development.
+- [heva][heva] - Create/update Heroku Config Vars.
 
 ## Registries
 
@@ -90,3 +95,35 @@ Wayback Archiver accounts are also maintained on these registries:
 
 This repository is only for documents. All of these are licensed under the Creative Commons Zero v1.0 Universal license, see the [LICENSE](https://github.com/wabarc/initium/blob/main/LICENSE) file for details.
 
+[archive.is]: https://github.com/wabarc/archive.is
+[archive.org]: https://github.com/wabarc/archive.org
+[archiver]: https://github.com/wabarc/archiver
+[artwork]: https://github.com/wabarc/artwork
+[aur]: https://github.com/wabarc/aur
+[broker]: https://github.com/wabarc/broker
+[cairn]: https://github.com/wabarc/cairn
+[distributor]: https://github.com/wabarc/distributor
+[flutter-bundle]: https://github.com/wabarc/flutter-bundle
+[githooks]: https://github.com/wabarc/githooks
+[golang-chromium]: https://github.com/wabarc/golang-chromium
+[helper]: https://github.com/wabarc/helper
+[heroku-schedule]: https://github.com/wabarc/heroku-schedule
+[heva]: https://github.com/wabarc/heva
+[imgbb]: https://github.com/wabarc/imgbb
+[initium]: https://github.com/wabarc/initium
+[ipfs-pinner]: https://github.com/wabarc/ipfs-pinner
+[logger]: https://github.com/wabarc/logger
+[memento]: https://github.com/wabarc/memento
+[on-cloudflare]: https://github.com/wabarc/on-cloudflare
+[on-github]: https://github.com/wabarc/on-github
+[on-heroku]: https://github.com/wabarc/on-heroku
+[packer]: https://github.com/wabarc/packer
+[playback]: https://github.com/wabarc/playback
+[prattein]: https://github.com/wabarc/prattein
+[project-template]: https://github.com/wabarc/project-template
+[screenshot]: https://github.com/wabarc/screenshot
+[sitemap]: https://github.com/wabarc/sitemap
+[snapshot]: https://github.com/wabarc/snapshot
+[telegra.ph]: https://github.com/wabarc/telegra.ph
+[wayback]: https://github.com/wabarc/wayback
+[wbipfs]: https://github.com/wabarc/wbipfs
